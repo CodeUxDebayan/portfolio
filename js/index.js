@@ -1,11 +1,12 @@
-setTimeout(function(){ 
+window.alert("Enable sound for better experience");
+setTimeout(function () { 
 
   const intro = document.getElementById("intro")
   intro.volume = 0.5;
   intro.play();
   
   }, 1000);
-window.alert("Enable sound for better experience");
+
 const main = document.getElementById('main');
 main.volume = 0.5;
 
