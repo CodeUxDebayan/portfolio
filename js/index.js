@@ -1,4 +1,5 @@
-window.alert("Enable sound for better experience");
+alert("Enable sound for better experience");
+
 setTimeout(function () { 
 
   const intro = document.getElementById("intro")
