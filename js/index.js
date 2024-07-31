@@ -5,7 +5,7 @@ setTimeout(function(){
   intro.play();
   
   }, 1000);
-
+window.alert("Enable sound for better experience");
 const main = document.getElementById('main');
 main.volume = 0.5;
 
