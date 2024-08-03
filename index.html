@@ -8,7 +8,7 @@
     <meta name="keywords"
         content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
     <meta name="author" content="Debayan Mukherjee" />
-    <title>Debayan Mukherjee - Personal Portfolio</title>
+    <title>Debayan Mukherjee - Portfolio</title>
     <!--favicon-img-->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!--favicon-img-->
@@ -17,7 +17,7 @@
     <!-- <link rel="stylesheet" href="css/color-red.css"> -->
     
     <!--main css file-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script  src="js/gsap.min.js"></script>
 </head>
 
 <body>
@@ -143,6 +143,7 @@
                         <span class="about-second-line"> With 4 years of experience as a freelancing Web developer, I
                             have acquired the skills and knowledge necessary to make your project a success. I enjoy
                             every step while working.</span>
+                            <a href="https://github.com/CodeUxDebayan">Github</a>
                         <div id="DownloadCV" class="cv">
                         <a download href="./files/2024 Cv.pdf">
                             <button>Download 
@@ -415,10 +416,10 @@
         <!--contact end-->
     </div>
     <!--all the divisions-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles.min.js"></script>
+    <script src="js/jquery.min.js" ></script>
     <script src="js/index.js"></script>
+    <script src="js/particles.min.js" ></script>
+    <script src="js/particles.js" defer></script>
     
     <!--particles script-->
     <script>
@@ -443,11 +444,6 @@
                     "polygon": {
                         "nb_sides": 5
                     },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
                 },
                 "opacity": {
                     "value": 0.5,
@@ -480,57 +476,17 @@
                     "enable": true,
                     "speed": 6,
                     "direction": "none",
-                    "random": false,
+                    "random": true,
                     "straight": false,
                     "out_mode": "out",
                     "bounce": false,
                     "attract": {
-                        "enable": false,
+                        "enable": true,
                         "rotateX": 600,
                         "rotateY": 1200
                     }
                 }
             },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
         });
     </script>
 
