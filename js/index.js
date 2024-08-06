@@ -1,7 +1,3 @@
-alert("Enable sound for better experience"), setTimeout(function () {
-  var e = document.getElementById("intro");
-  e.volume = .5, e.play()
-}, 1e3);
 const main = document.getElementById("main"),
   items = (main.volume = .5, document.getElementById("item")),
   menuOpen = (items.volume = .5, document.getElementById("menuOpen")),
@@ -61,7 +57,11 @@ const main = document.getElementById("main"),
     }), gsap.to("#navigation-content", 0, {
       display: "flex",
       delay: 1
-    })
+    }),
+    setTimeout(function () {
+      var e = document.getElementById("intro");
+      e.volume = .5, e.play()
+    }, 1e3);
   }), headerContent.addEventListener("mouseover", function () {
     main.play()
   }), document.querySelectorAll(".social-media")),
