@@ -40,7 +40,7 @@ input[type=number] {
 }
 
 html {
-    background: #101010
+    background: #000000
 }
 
 #loader {
@@ -67,7 +67,7 @@ body {
 #header,
 body {
     width: 100%;
-    background: #121212
+    background: #000000
 }
 
 #header {
@@ -296,7 +296,7 @@ body {
     font-weight: 700;
     font-family: Nunito Sans;
     font-size: 65px;
-    text-shadow: rgba(0, 0, 0, .443) 2px 4px 3px
+    text-shadow: rgba(0, 0, 0, .443) 2px 4px 3px;
 }
 
 .header-content .secondline {
